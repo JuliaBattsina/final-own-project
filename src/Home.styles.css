@@ -6,9 +6,9 @@
   
   
   img {
-    max-width: 100%; /* Установка максимальной ширины изображения в пределах контейнера */
-    height: auto; /* Автоматическое вычисление высоты изображения для сохранения пропорций */
-    display: block; /* Установка свойства display на block для правильного выравнивания */
+    max-width: 100%; 
+    height: auto; 
+    display: block;
     margin: 0 auto; 
    
   }
@@ -37,12 +37,12 @@
     margin-top: 10px;
   }
   .overlay-text button {
-    background-color: transparent; /* Прозрачный фон */
-    border: 2px solid white; /* Белый бордюр */
-    color: white; /* Белый цвет текста */
-    padding: 10px 20px; /* Отступы внутри кнопки */
-    cursor: pointer; /* Изменение курсора при наведении */
-    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+    background-color: transparent;
+    border: 2px solid white; 
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
     width: 150px;
     height: 50px;
     font-size: 18px;
@@ -52,7 +52,7 @@
   }
   
   .overlay-text button:hover {
-    background-color: #ccc; /* Серый фон при наведении */
+    background-color: #ccc;
   }
   body {
     background-color:#a8a6a1 ;
@@ -77,18 +77,18 @@
   }
   .image-item img {
     width: 350px; /* Уменьшаем ширину изображения */
-    height: 500px; /* Поддерживаем пропорции */
+    height: 500px; 
   }
   .image-info {
     text-align: center;
   }
   .image-info button {
-    background-color: transparent; /* Прозрачный фон */
-    border: 2px solid white; /* Белый бордюр */
-    color: white; /* Белый цвет текста */
-    padding: 10px 20px; /* Отступы внутри кнопки */
-    cursor: pointer; /* Изменение курсора при наведении */
-    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+    background-color: transparent; 
+    border: 2px solid white; 
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
     width: 150px;
     height: 50px;
     font-size: 18px;
@@ -97,7 +97,7 @@
     font-style: normal;
   }
   .image-info button:hover {
-    background-color: #ccc; /* Серый фон при наведении */
+    background-color: #ccc; 
   }
   .text-info {
     font-size: 30px;
@@ -114,34 +114,34 @@
   
   .new-image-container  {
     margin-top: 50px;
-    width: 100%; /* Вытягиваем изображение по ширине контейнера */
-    height: auto; /* Поддерживаем пропорции */
-    max-height: 650px; /* Максимальная высота изображения */
+    width: 100%; 
+    height: auto; 
+    max-height: 650px;
   }
   
   .gift-card-container {
     display: flex;
-    margin-top: 100px; /* Примерный отступ сверху */
+    margin-top: 100px; 
   }
   
   .image-container{
-    flex: 1; /* Оба контейнера занимают одинаковое пространство */
+    flex: 1; 
     height: 100%;
     position: relative;
   }
   
   .text-container {
-    flex: 1; /* Оба контейнера занимают одинаковое пространство */
-    height: 100%; /* Установка высоты */
+    flex: 1; 
+    height: 100%; 
     
   }
   .text-container {
     margin-top: 80px;
-    flex: 1; /* Занимает все доступное пространство */
-    display: flex; /* Используем flexbox */
-    flex-direction: column; /* Располагаем элементы в столбец */
-    justify-content: center; /* Выравниваем содержимое по вертикали */
-    align-items: center; /* Выравниваем элементы по горизонтали */
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
     width: 50px;
     font-size: 20px;
     font-family: "Spectral", serif;
@@ -153,12 +153,12 @@
   
   .text-container button {
     margin-top: 20px; 
-    background-color: transparent; /* Прозрачный фон */
-    border: 2px solid white; /* Белый бордюр */
-    color: white; /* Белый цвет текста */
+    background-color: transparent; 
+    border: 2px solid white; 
+    color: white; 
   margin: 20px;
-    cursor: pointer; /* Изменение курсора при наведении */
-    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
     width: 250px;
     height: 50px;
     font-size: 18px;
@@ -168,16 +168,16 @@
   
   }
   .text-container button:hover {
-    background-color: #ccc; /* Серый фон при наведении */
+    background-color: #ccc; 
   }
   .image-container img {
-    width: 500px; /* Максимальная ширина изображения */
-    height: 600px; /* Максимальная высота изображения */
-    display: block/* Заполнение контейнера изображением, сохраняя пропорции */
+    width: 500px; 
+    height: 600px; 
+    display: block;
   }
   
   .gift-card-text {
-    position: absolute; /* Абсолютное позиционирование текста поверх изображения */
+    position: absolute; 
     top: 50%; /* Расположение текста по вертикали в середине */
     left: 50%; /* Расположение текста по горизонтали в середине */
     transform: translate(-50%, -50%); /* Сдвиг текста на половину его размеров для центрирования */
