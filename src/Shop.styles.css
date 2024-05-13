@@ -6,16 +6,15 @@
 .product-card {
   padding: 2%;
   flex-grow: 1;
-  flex-basis: 25%; /* изменено с 16% на 25% для 4 изображений в ряду */
-  box-sizing: border-box; /* чтобы внутренние отступы не увеличивали ширину */
+  flex-basis: 25%; 
+  box-sizing: border-box; 
 }
 
 .product-card img {
   width: 400px;
-  
-   height:400px;
-  /* Установите фиксированную высоту здесь */
-   /* Сохраняет пропорции изображения и обрезает его, чтобы оно занимало всю высоту */
+  height:400px;
+
+
 }
   body {
   
@@ -79,12 +78,12 @@
   
     margin: 10px;
     margin-top: 20px; 
-    background-color: transparent; /* Прозрачный фон */
-    border: 2px solid white; /* Белый бордюр */
-    color: white; /* Белый цвет текста */
+    background-color: transparent;
+    border: 2px solid white; 
+    color: white;
   
-    cursor: pointer; /* Изменение курсора при наведении */
-    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
     width: 250px;
     height: 50px;
     font-size: 18px;
@@ -96,7 +95,7 @@
     background-color: #ccc;
    }
    .product-info h3, .product-info h4 {
-    margin: 0; /* Убираем внешние отступы у заголовков */
+    margin: 0; 
   }
   .app {
 
