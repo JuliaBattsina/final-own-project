@@ -1,0 +1,134 @@
+/* Стили для обертки формы */
+.overlas-text {
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 62px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fdfebe ;
+  }
+  
+  .overlas-text p {
+    margin: 0;
+  }
+  
+  .overlas-text button {
+    margin-top: 10px;
+  }
+  .overlas-text button {
+    background-color: transparent; /* Прозрачный фон */
+    border: 2px solid white; /* Белый бордюр */
+    color: white; /* Белый цвет текста */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer; /* Изменение курсора при наведении */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+.form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Белый цвет с прозрачностью */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Стили для самой формы */
+  .contact-form {
+    background-color: #ffffff; /* Белый фон */
+    padding: 30px; /* Увеличиваем отступы для увеличения размеров формы */
+    border-radius: 0; /* Убираем скругление углов */
+    border: 2px solid #ccc; /* Светло-серый цвет рамки */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень */
+    width: 800px; /* Увеличиваем ширину формы в два раза */
+  }
+  
+  /* Стили для полей ввода и меток */
+  .contact-form label,
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: calc(100% - 40px); /* Устанавливаем ширину поля ввода, учитывая отступы */
+    font-size: 16px; /* Размер шрифта */
+    color: black; /* Черный цвет текста */
+    padding: 5px;
+    text-transform: uppercase;
+  }
+  
+  /* Стили для кнопки отправки */
+  .contact-form button {
+    margin-top: 20px; 
+    background-color: transparent; /* Прозрачный фон */
+    border: 2px solid white; /* Белый бордюр */
+    color: #a8a6a1; /* Белый цвет текста */
+  margin: 20px;
+    cursor: pointer; /* Изменение курсора при наведении */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;/* Обычный шрифт */
+  }
+  
+  .contact-form button:hover {
+    background-color: #ccc; /* Темно-синий цвет при наведении */
+  }
+  @media screen and (max-width: 500px) {
+    
+      
+      .images-container {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      
+      .overlays-text {
+       
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 10px;
+        
+      }
+      
+      .overlas-text button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        
+      }
+      
+      .overlas-text button:hover {
+        background-color: #0056b3;
+      }
+      
+      .Support {
+        margin-top: 20px;
+      }
+      p {
+        font-size: 30px;
+        text-align: center;
+      }
+      h2 {
+        font-size: 10px;
+      }
+  }

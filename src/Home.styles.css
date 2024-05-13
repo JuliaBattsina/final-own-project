@@ -1,0 +1,308 @@
+.App {
+    position: relative;
+     text-align: center;
+    
+  }
+  
+  
+  img {
+    max-width: 100%; /* Установка максимальной ширины изображения в пределах контейнера */
+    height: auto; /* Автоматическое вычисление высоты изображения для сохранения пропорций */
+    display: block; /* Установка свойства display на block для правильного выравнивания */
+    margin: 0 auto; 
+   
+  }
+  .images-container {
+    position: relative;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 62px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fdfebe ;
+  }
+  
+  .overlay-text p {
+    margin: 0;
+  }
+  
+  .overlay-text button {
+    margin-top: 10px;
+  }
+  .overlay-text button {
+    background-color: transparent; /* Прозрачный фон */
+    border: 2px solid white; /* Белый бордюр */
+    color: white; /* Белый цвет текста */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer; /* Изменение курсора при наведении */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .overlay-text button:hover {
+    background-color: #ccc; /* Серый фон при наведении */
+  }
+  body {
+    background-color:#a8a6a1 ;
+  }
+  h2 {
+    font-size: 45px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fdfebe ;
+    
+  }
+  .favorite-images {
+    display: flex;
+    margin-top: 150px;
+  }
+  
+  .image-item {
+    flex: 1;
+   
+   
+  }
+  .image-item img {
+    width: 350px; /* Уменьшаем ширину изображения */
+    height: 500px; /* Поддерживаем пропорции */
+  }
+  .image-info {
+    text-align: center;
+  }
+  .image-info button {
+    background-color: transparent; /* Прозрачный фон */
+    border: 2px solid white; /* Белый бордюр */
+    color: white; /* Белый цвет текста */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer; /* Изменение курсора при наведении */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .image-info button:hover {
+    background-color: #ccc; /* Серый фон при наведении */
+  }
+  .text-info {
+    font-size: 30px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fdfebe ;
+    text-shadow: #a8a6a1;
+    
+  }
+  
+  
+  
+  
+  .new-image-container  {
+    margin-top: 50px;
+    width: 100%; /* Вытягиваем изображение по ширине контейнера */
+    height: auto; /* Поддерживаем пропорции */
+    max-height: 650px; /* Максимальная высота изображения */
+  }
+  
+  .gift-card-container {
+    display: flex;
+    margin-top: 100px; /* Примерный отступ сверху */
+  }
+  
+  .image-container{
+    flex: 1; /* Оба контейнера занимают одинаковое пространство */
+    height: 100%;
+    position: relative;
+  }
+  
+  .text-container {
+    flex: 1; /* Оба контейнера занимают одинаковое пространство */
+    height: 100%; /* Установка высоты */
+    
+  }
+  .text-container {
+    margin-top: 80px;
+    flex: 1; /* Занимает все доступное пространство */
+    display: flex; /* Используем flexbox */
+    flex-direction: column; /* Располагаем элементы в столбец */
+    justify-content: center; /* Выравниваем содержимое по вертикали */
+    align-items: center; /* Выравниваем элементы по горизонтали */
+    width: 50px;
+    font-size: 20px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-right: 50px;
+    color: #fdfebe ;
+  }
+  
+  .text-container button {
+    margin-top: 20px; 
+    background-color: transparent; /* Прозрачный фон */
+    border: 2px solid white; /* Белый бордюр */
+    color: white; /* Белый цвет текста */
+  margin: 20px;
+    cursor: pointer; /* Изменение курсора при наведении */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+  
+  }
+  .text-container button:hover {
+    background-color: #ccc; /* Серый фон при наведении */
+  }
+  .image-container img {
+    width: 500px; /* Максимальная ширина изображения */
+    height: 600px; /* Максимальная высота изображения */
+    display: block/* Заполнение контейнера изображением, сохраняя пропорции */
+  }
+  
+  .gift-card-text {
+    position: absolute; /* Абсолютное позиционирование текста поверх изображения */
+    top: 50%; /* Расположение текста по вертикали в середине */
+    left: 50%; /* Расположение текста по горизонтали в середине */
+    transform: translate(-50%, -50%); /* Сдвиг текста на половину его размеров для центрирования */
+    text-align: center; /* Выравнивание текста по центру */
+    color:black ; /* Цвет текста */
+    font-size: 50px; /* Размер шрифта */
+    font-family: "Spectral", serif; /* Шрифт */
+    font-weight: 500; /* Нормальная толщина шрифта */
+    font-style: normal; /* Обычный стиль шрифта */
+    text-shadow: 2px 2px 4px rgba(253, 234, 234, 0.5);
+  }
+  h3 {
+    font-size: 45px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    
+   
+      
+      /* Общие стили для изображений */
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      
+      /* Стили для контейнера изображений */
+      
+      
+      /* Стили для текста поверх изображения */
+   
+      
+      
+      .overlay-text button {
+        margin-top: 10px;
+      }
+      
+      /* Стили для кнопок */
+      .overlay-text button {
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .overlay-text button:hover {
+        background-color: #ccc;
+      }
+      
+      /* Стили для заголовков */
+      h2,
+      h3 {
+        font-size: 20px; /* Уменьшаем размер заголовков для мобильных устройств */
+      }
+      
+      /* Стили для контейнера избранных изображений */
+      .favorite-images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Выравниваем изображения по центру */
+        margin-top: 50px; /* Увеличиваем отступ для разделения контента */
+      }
+      
+      /* Стили для элементов избранных изображений */
+      .image-item {
+        flex: 0 0 100%; /* Устанавливаем каждый элемент на всю ширину */
+        margin-bottom: 20px;
+        text-align: center; /* Выравниваем текст по центру */
+      }
+      
+      /* Стили для изображений в элементах избранных изображений */
+      .image-item img {
+        width: 100%; /* Растягиваем изображение по ширине контейнера */
+      }
+      
+      /* Стили для текста под изображениями */
+      .image-info {
+        margin-top: 10px;
+      }
+      
+      /* Стили для кнопок под изображениями */
+      .image-info button {
+        margin-top: 10px;
+      }
+      
+      /* Стили для подарочной карты */
+      .gift-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Выравниваем контент по центру */
+        margin-top: 50px;
+      }
+      
+      /* Стили для контейнера с изображением подарочной карты */
+      .image-container {
+        flex: 0 0 100%; /* Устанавливаем контейнер на всю ширину */
+        position: relative;
+      }
+      
+      /* Стили для изображения подарочной карты */
+      .image-container img {
+        width: 100%; /* Растягиваем изображение по ширине контейнера */
+      }
+      
+      /* Стили для текста на подарочной карте */
+      .gift-card-text {
+        font-size: 30px; /* Уменьшаем размер текста для мобильных устройств */
+      }
+      
+      /* Стили для контейнера с текстом на подарочной карте */
+      .text-container {
+        flex: 0 0 100%; /* Устанавливаем контейнер на всю ширину */
+        margin-top: 20px; /* Увеличиваем отступ сверху */
+      }
+      
+      /* Стили для кнопок в контейнере с текстом на подарочной карте */
+      .text-container button {
+        margin-top: 10px;
+      }
+      .overlay-text {
+        font-size: 20px;
+        line-height: 1.2em;
+    
+      }
+  }
