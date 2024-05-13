@@ -6,12 +6,12 @@ import Shop from './Shop';
 import About from './About';
 import Contact from './Contact';
 import Cart from './Cart';
-import { CartProvider } from './CartContext'; // Импорт CartProvider
+import { CartProvider } from './CartContext';
 
 function App() {
   return (
     <Router>
-      <CartProvider> {/* Обертка вокруг всего приложения */}
+      <CartProvider> 
         <div>
           <Navbar />
           <Routes>
@@ -23,7 +23,7 @@ function App() {
             <Route path="/cart" element={<Cart />} />
           </Routes>
         </div>
-      </CartProvider> {/* Закрываем CartProvider */}
+      </CartProvider>
     </Router>
   );
 }
