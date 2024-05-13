@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useCart } from './CartContext';
 import './Cart.styles.css';
-import CartItem from './CartItem'; // Импортируем компонент
+import CartItem from './CartItem'; 
 
 function Cart() {
   const { cart, clearCart } = useCart();
@@ -52,7 +52,7 @@ function Cart() {
                 item={item}
                 onIncrease={handleIncreaseQuantity}
                 onDecrease={handleDecreaseQuantity}
-                onRemove={handleRemoveItem} // Передаем функцию удаления товара в CartItem
+                onRemove={handleRemoveItem}
               />
             ))}
           </ul>
