@@ -76,7 +76,7 @@
    
   }
   .image-item img {
-    width: 350px; /* Уменьшаем ширину изображения */
+    width: 350px;
     height: 500px; 
   }
   .image-info {
@@ -178,15 +178,15 @@
   
   .gift-card-text {
     position: absolute; 
-    top: 50%; /* Расположение текста по вертикали в середине */
-    left: 50%; /* Расположение текста по горизонтали в середине */
-    transform: translate(-50%, -50%); /* Сдвиг текста на половину его размеров для центрирования */
-    text-align: center; /* Выравнивание текста по центру */
-    color:black ; /* Цвет текста */
-    font-size: 50px; /* Размер шрифта */
-    font-family: "Spectral", serif; /* Шрифт */
-    font-weight: 500; /* Нормальная толщина шрифта */
-    font-style: normal; /* Обычный стиль шрифта */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:black ;
+    font-size: 50px;
+    font-family: "Spectral", serif; 
+    font-weight: 500;
+    font-style: normal; 
     text-shadow: 2px 2px 4px rgba(253, 234, 234, 0.5);
   }
   h3 {
@@ -197,7 +197,7 @@
     
    
       
-      /* Общие стили для изображений */
+  
       img {
         max-width: 100%;
         height: auto;
@@ -205,18 +205,11 @@
         margin: 0 auto;
       }
       
-      /* Стили для контейнера изображений */
-      
-      
-      /* Стили для текста поверх изображения */
-   
-      
-      
       .overlay-text button {
         margin-top: 10px;
       }
       
-      /* Стили для кнопок */
+ 
       .overlay-text button {
         background-color: transparent;
         border: 2px solid white;
@@ -230,73 +223,73 @@
         background-color: #ccc;
       }
       
-      /* Стили для заголовков */
+    
       h2,
       h3 {
-        font-size: 20px; /* Уменьшаем размер заголовков для мобильных устройств */
+        font-size: 20px; 
       }
       
-      /* Стили для контейнера избранных изображений */
+  
       .favorite-images {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; /* Выравниваем изображения по центру */
-        margin-top: 50px; /* Увеличиваем отступ для разделения контента */
+        justify-content: center;
+        margin-top: 50px; 
       }
       
-      /* Стили для элементов избранных изображений */
+      
       .image-item {
-        flex: 0 0 100%; /* Устанавливаем каждый элемент на всю ширину */
+        flex: 0 0 100%;
         margin-bottom: 20px;
-        text-align: center; /* Выравниваем текст по центру */
+        text-align: center;
       }
       
-      /* Стили для изображений в элементах избранных изображений */
+     
       .image-item img {
-        width: 100%; /* Растягиваем изображение по ширине контейнера */
+        width: 100%; 
       }
       
-      /* Стили для текста под изображениями */
+
       .image-info {
         margin-top: 10px;
       }
       
-      /* Стили для кнопок под изображениями */
+  
       .image-info button {
         margin-top: 10px;
       }
       
-      /* Стили для подарочной карты */
+      
       .gift-card-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; /* Выравниваем контент по центру */
+        justify-content: center; 
         margin-top: 50px;
       }
       
-      /* Стили для контейнера с изображением подарочной карты */
+     
       .image-container {
-        flex: 0 0 100%; /* Устанавливаем контейнер на всю ширину */
+        flex: 0 0 100%; 
         position: relative;
       }
       
-      /* Стили для изображения подарочной карты */
+  
       .image-container img {
-        width: 100%; /* Растягиваем изображение по ширине контейнера */
+        width: 100%; 
       }
       
-      /* Стили для текста на подарочной карте */
+     
       .gift-card-text {
-        font-size: 30px; /* Уменьшаем размер текста для мобильных устройств */
+        font-size: 30px; 
       }
       
-      /* Стили для контейнера с текстом на подарочной карте */
+    
       .text-container {
-        flex: 0 0 100%; /* Устанавливаем контейнер на всю ширину */
-        margin-top: 20px; /* Увеличиваем отступ сверху */
+        flex: 0 0 100%; 
+        margin-top: 20px; 
       }
       
-      /* Стили для кнопок в контейнере с текстом на подарочной карте */
+     
       .text-container button {
         margin-top: 10px;
       }
