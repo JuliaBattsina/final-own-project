@@ -11,7 +11,7 @@ function CartItem({ item, onIncrease, onDecrease, onRemove }) {
         <div className="cart-item-actions">
           <button onClick={() => onIncrease(item)}>+</button>
           <button onClick={() => onDecrease(item)}>-</button>
-          <button onClick={() => onRemove(item)}>Remove</button> {/* Добавляем кнопку для удаления товара */}
+          <button onClick={() => onRemove(item)}>Remove</button> 
         </div>
       </div>
     </li>
