@@ -17,7 +17,7 @@
   font-style: normal;
   }
   
-  /* navbar */
+
   .navbar {
     background-color:#0c0c0c13;
     padding: 10px 20px;
@@ -32,7 +32,7 @@
   .navbar--hidden {
     top: -50px;
   }
-  /* logo  */
+
   .logo {
     font-size: 30px;
     font-family: "Spectral", serif;
@@ -41,7 +41,7 @@
   }
   
   
-  /* ul  */
+
   .navMenu {
     display: flex;
     justify-content: space-between;
@@ -49,11 +49,11 @@
     gap: 60px;
   }
   
-  /* media queries */
+
   
   @media screen and (max-width: 780px){
     
-    /* hamburger */
+
     .hamburger {
       display: block;
       cursor: pointer;
@@ -69,7 +69,7 @@
           transition: 0.3s ease-in-out;
       }
   
-    /* adding active class to the bars  */
+   
     .hamburger.active .bar:nth-child(2){
       opacity: 0;
     }
@@ -81,7 +81,7 @@
     }
   
   
-    /* navMenu */
+
   
     .navMenu{
       position: absolute;
