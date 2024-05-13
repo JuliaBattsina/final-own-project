@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useCart } from './CartContext';
-import Buttons from './Buttons'; // Вернули Buttons
-import { data } from './data'; // Вернули data
+import Buttons from './Buttons'; 
+import { data } from './data'; 
 import './Shop.styles.css';
 import Swal from 'sweetalert2';
 
