@@ -8,7 +8,7 @@ import  CartContext  from './CartContext';
 import  { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 function Home() {
-  const { addToCart } = useContext(CartContext); // Получаем функцию addToCart из контекста корзины
+  const { addToCart } = useContext(CartContext); 
 
   const handleBuyNow = (item) => {
     addToCart(item);
@@ -38,7 +38,7 @@ function Home() {
           
             {data.slice(0, 3).map(item => (
               <div className="image-item" key={item.id}>
-                <img src={item.image} alt={item.name} /> {/* Используем изображение из данных */}
+                <img src={item.image} alt={item.name} /> 
                 <div className="image-info">
                   <p className='text-info'>{item.name}</p>
                   <button onClick={() => handleBuyNow(item)}>Buy Now</button>
